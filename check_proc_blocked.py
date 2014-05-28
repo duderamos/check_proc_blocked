@@ -32,7 +32,6 @@ def main():
 
         pd = os.popen(cmd, 'r', 10240)
         for line in pd:
-                print line
                 if 'D' in line:
                         count = count + 1
 
